@@ -20,3 +20,7 @@ clean:
 	docker system prune -f
 
 rebuild: stop clean build run
+
+update-libs:
+	pip install -r ./requirements.txt
+	pip freeze > ./requirements.txt
