@@ -1,6 +1,8 @@
 import requests
 
+# list of hotels. Each hotes is a list with 2 elems: name and city
 hotels = [["Four season", "Moscow"], ['Raddison Slavyanskaya', 'Moscow']]
+# list of competitors: each competitor is a list with 2 elems: name and target URL domain
 comparators = [["yandex travel", "travel.yandex.ru/hotels"], ["mts travel", "travel.mts.ru/hotels"], ["bronevik", "bronevik.com/ru/hotel"]]
 
 for hotel in hotels:
